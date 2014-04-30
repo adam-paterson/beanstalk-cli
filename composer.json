@@ -1,0 +1,20 @@
+{
+    "name": "adampaterson/beanstalk-cli",
+    "description": "CLI Tool for Beanstalk",
+    "require": {
+        "php": ">=5.3.3",
+        "symfony/console": "2.5.*@dev"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Adam Paterson",
+            "email": "hello@adampaterson.co.uk"
+        }
+    ],
+    "autoload": {
+        "psr-0": {
+            "Beanstalk": "src"
+        }
+    }
+}
